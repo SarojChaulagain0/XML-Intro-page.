@@ -3,7 +3,7 @@ var validateButton = document.getElementById("validateButton");
                 var validationResult = document.getElementById("validationResult");
 
                 validateButton.addEventListener("click", function() {
-                    // Your JavaScript code to validate XML
+                    
                     var parser = new DOMParser();
                     var xmlDoc = parser.parseFromString(xmlInput.value, "application/xml");
 
